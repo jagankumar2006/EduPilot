@@ -1,0 +1,37 @@
+
+{"state": "STUDENT: Give me a quiz question on entropy so I can check my level.", "expected": {"action": "assess"}, "split": "tune"}
+{"state": "STUDENT: Test me on heat transfer. I want to see how I do.", "expected": {"action": "assess"}, "split": "tune"}
+{"state": "STUDENT: Can you quiz me on diodes right now?", "expected": {"action": "assess"}, "split": "tune"}
+{"state": "STUDENT: I want to try some questions on transistors before I study tonight.", "expected": {"action": "assess"}, "split": "tune"}
+{"state": "STUDENT: I scored 2 out of 5 on the entropy quiz I just finished. Please record that.", "expected": {"action": "record"}, "split": "tune"}
+{"state": "STUDENT: Just got my amplifiers result back: 4 out of 5.", "expected": {"action": "record"}, "split": "tune"}
+{"state": "STUDENT: I did the enthalpy self-test and I got a 3.", "expected": {"action": "record"}, "split": "tune"}
+{"state": "STUDENT: I tested myself on diodes last night and scored 5.", "expected": {"action": "record"}, "split": "tune"}
+{"state": "STUDENT: Build me a study plan. I have Thermodynamics on October 30 and Electronics on November 13. I can study 20 hours.", "expected": {"action": "plan"}, "split": "tune"}
+{"state": "STUDENT: I need a fresh study schedule. I have 15 hours free this week.", "expected": {"action": "plan"}, "split": "tune"}
+{"state": "STUDENT: My Thermodynamics exam moved from October 30 to November 5. Please rebuild my plan.", "expected": {"action": "replan"}, "split": "tune"}
+{"state": "STUDENT: I missed two study sessions this week. Can you adjust my remaining schedule?", "expected": {"action": "replan"}, "split": "tune"}
+{"state": "STUDENT: I now have 30 hours available instead of 20. Please redo my plan.", "expected": {"action": "replan"}, "split": "tune"}
+{"state": "STUDENT: Why is entropy ranked above heat transfer in my plan?", "expected": {"action": "explain"}, "split": "tune"}
+{"state": "STUDENT: What is my top priority right now and what evidence supports that?", "expected": {"action": "explain"}, "split": "tune"}
+{"state": "STUDENT: Walk me through what my plan covers and what comes next.", "expected": {"action": "explain"}, "split": "tune"}
+{"state": "STUDENT: I am not sure what to do right now.", "expected": {"action": "clarify"}, "split": "tune"}
+{"state": "STUDENT: Help.", "expected": {"action": "clarify"}, "split": "tune"}
+{"state": "STUDENT: Test me on amplifiers. Give me a question.", "expected": {"action": "assess"}, "split": "test"}
+{"state": "STUDENT: I would like a quiz on enthalpy to see where I stand.", "expected": {"action": "assess"}, "split": "test"}
+{"state": "STUDENT: Ask me something about transistors.", "expected": {"action": "assess"}, "split": "test"}
+{"state": "STUDENT: I want to check my understanding of heat transfer with a quick quiz.", "expected": {"action": "assess"}, "split": "test"}
+{"state": "STUDENT: I just took the heat transfer quiz and scored 3 out of 5. Please record this.", "expected": {"action": "record"}, "split": "test"}
+{"state": "STUDENT: My transistors quiz result was 4. Record it please.", "expected": {"action": "record"}, "split": "test"}
+{"state": "STUDENT: I scored 1 on entropy just now. That was rough.", "expected": {"action": "record"}, "split": "test"}
+{"state": "STUDENT: I finished the amplifiers assessment and got a 5.", "expected": {"action": "record"}, "split": "test"}
+{"state": "STUDENT: Please create a new study plan for me with 25 hours available.", "expected": {"action": "plan"}, "split": "test"}
+{"state": "STUDENT: I have two exams coming up and no plan yet. Can you build one? I have about 18 hours.", "expected": {"action": "plan"}, "split": "test"}
+{"state": "STUDENT: I just found out I have a third exam in two weeks. Please redo my study schedule.", "expected": {"action": "replan"}, "split": "test"}
+{"state": "STUDENT: I missed several sessions and my exam is getting close. Please replan what is left.", "expected": {"action": "replan"}, "split": "test"}
+{"state": "STUDENT: My available hours dropped to 10 this week. Update the plan.", "expected": {"action": "replan"}, "split": "test"}
+{"state": "STUDENT: Show me which topic needs the most attention and why.", "expected": {"action": "explain"}, "split": "test"}
+{"state": "STUDENT: Explain to me why you are recommending entropy over enthalpy.", "expected": {"action": "explain"}, "split": "test"}
+{"state": "STUDENT: Can you describe my current study state and the reasoning behind the top recommendation?", "expected": {"action": "explain"}, "split": "test"}
+{"state": "STUDENT: I am not sure where to begin. What should I do?", "expected": {"action": "clarify"}, "split": "test"}
+{"state": "STUDENT: Can you help me?", "expected": {"action": "clarify"}, "split": "test"}

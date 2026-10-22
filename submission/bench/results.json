@@ -1,0 +1,438 @@
+{
+ "decider_model": "strands-decider-2b-hobson-v19",
+ "rows": [
+  {
+   "i": 0,
+   "expected": {
+    "action": "assess"
+   },
+   "decider": {
+    "action": {
+     "label": "assess",
+     "confidence": 0.982
+    }
+   },
+   "decider_ms": 2307.659899815917,
+   "decider_server_ms": 1370.2,
+   "llm": {
+    "action": {
+     "label": "assess",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 16487.495000008494,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 1,
+   "expected": {
+    "action": "assess"
+   },
+   "decider": {
+    "action": {
+     "label": "assess",
+     "confidence": 0.9863
+    }
+   },
+   "decider_ms": 2324.854599777609,
+   "decider_server_ms": 1309.6,
+   "llm": {
+    "action": {
+     "label": "assess",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 15468.097500037402,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 2,
+   "expected": {
+    "action": "assess"
+   },
+   "decider": {
+    "action": {
+     "label": "assess",
+     "confidence": 0.954
+    }
+   },
+   "decider_ms": 2673.2876002788544,
+   "decider_server_ms": 1349.7,
+   "llm": {
+    "action": {
+     "label": "assess",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 13587.497899774462,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 3,
+   "expected": {
+    "action": "assess"
+   },
+   "decider": {
+    "action": {
+     "label": "assess",
+     "confidence": 0.9878
+    }
+   },
+   "decider_ms": 3047.7055003866553,
+   "decider_server_ms": 1249.9,
+   "llm": {
+    "action": {
+     "label": "assess",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 13294.574900064617,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 4,
+   "expected": {
+    "action": "record"
+   },
+   "decider": {
+    "action": {
+     "label": "record",
+     "confidence": 0.9753
+    }
+   },
+   "decider_ms": 3542.095700278878,
+   "decider_server_ms": 1387.5,
+   "llm": {
+    "action": {
+     "label": "record",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 12705.008400138468,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 5,
+   "expected": {
+    "action": "record"
+   },
+   "decider": {
+    "action": {
+     "label": "record",
+     "confidence": 0.9639
+    }
+   },
+   "decider_ms": 3803.0404997989535,
+   "decider_server_ms": 1362.9,
+   "llm": {
+    "action": {
+     "label": "record",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 14136.421900242567,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 6,
+   "expected": {
+    "action": "record"
+   },
+   "decider": {
+    "action": {
+     "label": "record",
+     "confidence": 0.9331
+    }
+   },
+   "decider_ms": 3618.054000195116,
+   "decider_server_ms": 1232.3,
+   "llm": {
+    "action": {
+     "label": "record",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 14345.83290014416,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 7,
+   "expected": {
+    "action": "record"
+   },
+   "decider": {
+    "action": {
+     "label": "record",
+     "confidence": 0.9658
+    }
+   },
+   "decider_ms": 2153.3655002713203,
+   "decider_server_ms": 1379.4,
+   "llm": {
+    "action": {
+     "label": "record",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 14545.557899866253,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 8,
+   "expected": {
+    "action": "plan"
+   },
+   "decider": {
+    "action": {
+     "label": "plan",
+     "confidence": 0.9355
+    }
+   },
+   "decider_ms": 2438.109700102359,
+   "decider_server_ms": 1239.7,
+   "llm": {
+    "action": {
+     "label": "plan",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 13515.872600022703,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 9,
+   "expected": {
+    "action": "plan"
+   },
+   "decider": {
+    "action": {
+     "label": "plan",
+     "confidence": 0.9505
+    }
+   },
+   "decider_ms": 5629.415099974722,
+   "decider_server_ms": 4728.1,
+   "llm": {
+    "action": {
+     "label": "plan",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 13297.694200184196,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 10,
+   "expected": {
+    "action": "replan"
+   },
+   "decider": {
+    "action": {
+     "label": "replan",
+     "confidence": 0.7549
+    }
+   },
+   "decider_ms": 3570.591100025922,
+   "decider_server_ms": 1373.5,
+   "llm": {
+    "action": {
+     "label": "replan",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 13101.97819955647,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 11,
+   "expected": {
+    "action": "replan"
+   },
+   "decider": {
+    "action": {
+     "label": "replan",
+     "confidence": 0.6433
+    }
+   },
+   "decider_ms": 2491.4218997582793,
+   "decider_server_ms": 1327.8,
+   "llm": {
+    "action": {
+     "label": "replan",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 12620.509900152683,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 12,
+   "expected": {
+    "action": "replan"
+   },
+   "decider": {
+    "action": {
+     "label": "replan",
+     "confidence": 0.6385
+    }
+   },
+   "decider_ms": 2290.888000279665,
+   "decider_server_ms": 1262.7,
+   "llm": {
+    "action": {
+     "label": "replan",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 33076.30359986797,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 13,
+   "expected": {
+    "action": "explain"
+   },
+   "decider": {
+    "action": {
+     "label": "explain",
+     "confidence": 0.9194
+    }
+   },
+   "decider_ms": 1905.8590000495315,
+   "decider_server_ms": 1272.1,
+   "llm": {
+    "action": {
+     "label": "explain",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 29862.493900116533,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 14,
+   "expected": {
+    "action": "explain"
+   },
+   "decider": {
+    "action": {
+     "label": "explain",
+     "confidence": 0.7093
+    }
+   },
+   "decider_ms": 1950.933599844575,
+   "decider_server_ms": 1244.5,
+   "llm": {
+    "action": {
+     "label": "explain",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 29658.842199947685,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 15,
+   "expected": {
+    "action": "explain"
+   },
+   "decider": {
+    "action": {
+     "label": "explain",
+     "confidence": 0.8847
+    }
+   },
+   "decider_ms": 2012.6616000197828,
+   "decider_server_ms": 1321.0,
+   "llm": {
+    "action": {
+     "label": "explain",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 28333.113399799913,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 16,
+   "expected": {
+    "action": "clarify"
+   },
+   "decider": {
+    "action": {
+     "label": "clarify",
+     "confidence": 0.7161
+    }
+   },
+   "decider_ms": 2064.223399851471,
+   "decider_server_ms": 1253.4,
+   "llm": {
+    "action": {
+     "label": "clarify",
+     "confidence": 0.95
+    }
+   },
+   "llm_ms": 29237.38990025595,
+   "llm_cost": 0.0
+  },
+  {
+   "i": 17,
+   "expected": {
+    "action": "clarify"
+   },
+   "decider": {
+    "action": {
+     "label": "clarify",
+     "confidence": 0.4852
+    }
+   },
+   "decider_ms": 1866.383499931544,
+   "decider_server_ms": 1224.6,
+   "llm": {
+    "action": {
+     "label": "clarify",
+     "confidence": 1.0
+    }
+   },
+   "llm_ms": 29381.717899814248,
+   "llm_cost": 0.0
+  }
+ ],
+ "summary": {
+  "decider": {
+   "accuracy": 1.0,
+   "decisions": 18,
+   "per_question": {
+    "action": 1.0
+   },
+   "latency_p50_ms": 2438.1,
+   "latency_p95_ms": 3803.0,
+   "usd_per_1k_decisions": 0.035,
+   "confident_share": 0.8333,
+   "accuracy_when_confident": 1.0,
+   "sent_to_human_at_threshold": 3
+  },
+  "llm": {
+   "accuracy": 1.0,
+   "decisions": 18,
+   "per_question": {
+    "action": 1.0
+   },
+   "latency_p50_ms": 14545.6,
+   "latency_p95_ms": 29862.5,
+   "usd_per_1k_decisions": 0.0,
+   "confident_share": 1.0,
+   "accuracy_when_confident": 1.0,
+   "sent_to_human_at_threshold": 0
+  },
+  "speedup_p50": 5.97
+ },
+ "threshold": 0.7,
+ "llm_model": "qwen3.5-4b",
+ "llm_provider": "ugmdu",
+ "llm_where": "AWS User Group Madurai cloud (qwen3.5-4b)",
+ "decider_url": "https://da25tnxy06gjk.cloudfront.net",
+ "decider_mode": "ugmdu",
+ "ran_at": 1792688511.0361106,
+ "split": "test"
+}

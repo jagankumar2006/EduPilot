@@ -1,0 +1,11 @@
+# Amazon Bedrock AgentCore features for EduPilot.
+# Drives ./kit deploy. Keep the dict structure: scripts/article.py reads .enabled.
+
+memory:
+  enabled: true
+  strategies:
+    - summarise       # compress old turns into a study-session summary
+
+gateway:
+  enabled: false      # no external targets for the MVP; set true when adding a quiz API
+  targets: []

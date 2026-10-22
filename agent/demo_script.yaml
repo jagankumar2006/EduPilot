@@ -1,0 +1,34 @@
+# EduPilot demo script.
+# Rules from make_video.py:
+#   - narrate/intro/outro/pitch lines must NOT contain any digit at all
+#   - turns must have `say` and `narrate`
+#   - keep total under 170 seconds
+title: "EduPilot: AI Academic Decision Agent for College Students"
+
+pitch: "An AI study coach that decides what to study next — by building plans, recording results, and adapting as the student's knowledge changes."
+
+features:
+  - "inspect topic strengths and exam dates at a glance"
+  - "generate a prioritised study plan in one request"
+  - "record a quiz result and immediately reflect it in the plan"
+  - "ask for clarification when a request is too vague to act on"
+  - "route every request through Strands Decider before any tool runs"
+
+eager: true
+intro: "EduPilot is a study coach that runs on Amazon Bedrock. For this demo it acts immediately without asking, so Strands Decider has real decisions to make on every turn."
+intro_normal: "EduPilot runs on Amazon Bedrock AgentCore Runtime. Strands Decider classifies each student request and routes it to the right academic tool before the LLM generates a response."
+
+turns:
+  - say: "I have Thermodynamics and Electronics coming up. Build me a study plan — I have about twenty hours."
+    narrate: "The student asks for a study plan. The decider classifies this as a plan request and the agent calculates a prioritised schedule, putting the weakest topics and nearest exam first."
+
+  - say: "I just took the entropy quiz and scored two out of five. Please record that."
+    narrate: "The student reports a quiz result. The decider identifies this as a record action, updates the topic strength, and flags that a replan may be warranted."
+
+  - say: "I missed two study sessions this week. Can you adjust what is left?"
+    narrate: "Circumstances changed. The decider selects replan and the agent rebuilds the schedule around the missed sessions, keeping the exam deadline in view."
+
+  - say: "Can you help me?"
+    narrate: "A vague request with no clear intent. The decider returns a low-confidence result, so the agent asks a clarifying question instead of guessing the wrong action."
+
+outro: "Strands Decider reads the student's words and study state, picks the right action, and returns a calibrated confidence score. The agent proceeds when confident and asks when it is not."
