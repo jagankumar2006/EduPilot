@@ -4,9 +4,10 @@
 
 An agent on AWS that hands one decision to **Strands Decider 2B** and the conversation to **Amazon Bedrock**. Decision pattern: `#tool-selection`. Tags: `#strands-decider-2b` `#tool-selection`.
 
-- Video: (add the YouTube/Vimeo link)
-- Article: (add the AWS Builder Center link)
-- Deployed: run `./kit deploy`
+- Video: (add the YouTube/Vimeo link after running `./kit video`)
+- Article: (add the AWS Builder Center link after publishing)
+- **Local deployment:** `./kit demo-bg` → http://localhost:8501
+- **AWS deployment:** AWS credentials + `./kit deploy` (requires network access for npm)
 
 ## The project
 
